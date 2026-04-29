@@ -1,0 +1,9 @@
+microns-datacleaner
+caveclient==8.0.1
+numpy
+pandas
+scipy
+networkx
+matplotlib
+jupyter
+ipykernel
