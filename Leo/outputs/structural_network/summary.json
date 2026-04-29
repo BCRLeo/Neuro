@@ -1,0 +1,21 @@
+{
+  "version": 1718,
+  "h5_path": "C:\\Users\\leona\\AppData\\Local\\Programs\\Python\\Neuro-1\\data\\functional\\microns_functional.h5",
+  "n_units_after_structural_merge": 90434,
+  "n_functionally_matched_unique": 13005,
+  "n_ax_clean_functionally_matched_unique": 906,
+  "selected_session": "ALL_MATCHED_MULTISSESSION_STRUCTURAL_ONLY",
+  "selected_session_unique_neurons": 906,
+  "go_threshold": 200,
+  "go_for_structure_function": false,
+  "n_cohort": 906,
+  "n_excitatory": 906,
+  "n_inhibitory": 0,
+  "n_synapse_rows_raw": 24260,
+  "n_autapses_removed": 10979,
+  "n_directed_edges_all": 11822,
+  "n_directed_edges_excitatory_pre": 11822,
+  "n_directed_edges_inhibitory_pre": 0,
+  "directed_density_no_autapses": 0.014418304001561109,
+  "total_synapse_count_no_autapses": 13281
+}
