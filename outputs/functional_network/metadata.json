@@ -1,0 +1,13 @@
+{
+  "session": 9,
+  "scan": 3,
+  "n_neurons": 93,
+  "n_trials": 464,
+  "n_time_frames": 37840,
+  "correlation_method": "pearson",
+  "data_source": "concatenated trials, V1 only",
+  "mean_correlation": 0.019831809399118286,
+  "median_correlation": 0.01169604256608978,
+  "pairs_above_0.2": 18,
+  "pairs_above_0.3": 7
+}
