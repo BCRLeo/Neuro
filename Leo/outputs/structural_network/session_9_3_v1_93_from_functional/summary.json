@@ -1,0 +1,27 @@
+{
+  "source_functional_cohort": "C:\\Users\\leona\\AppData\\Local\\Programs\\Python\\Neuro-1\\outputs\\functional_network\\functional_cohort.csv",
+  "source_functional_matrix": "C:\\Users\\leona\\AppData\\Local\\Programs\\Python\\Neuro-1\\outputs\\functional_network\\F_correlation_matrix.npy",
+  "source_synapse_cache": "C:\\Users\\leona\\AppData\\Local\\Programs\\Python\\Neuro-1\\Leo\\outputs\\structural_network\\all-matched_axon-clean\\cohort_synapses_raw.csv",
+  "selected_session": "9_3",
+  "n_cohort": 93,
+  "n_unique_pt_root_id": 93,
+  "n_unique_functional_unit_id_within_session": 93,
+  "duplicates_used_to_increase_n": false,
+  "go_threshold_enforced": false,
+  "go_threshold_note": "The original fallback threshold was 200 neurons, but the team has decided the 93-neuron session 9_3 V1 cohort is acceptable for the current analysis. This builder therefore records the cohort size but does not refuse to build below 200.",
+  "functional_matrix_shape": [
+    93,
+    93
+  ],
+  "n_excitatory": 93,
+  "n_inhibitory": 0,
+  "n_raw_synapse_rows_between_cohort": 998,
+  "n_autapses_removed": 738,
+  "n_directed_edges_all": 229,
+  "n_directed_edges_excitatory_pre": 229,
+  "n_directed_edges_inhibitory_pre": 0,
+  "directed_density_no_autapses": 0.026764843384759235,
+  "total_synapse_count_no_autapses": 260,
+  "matrix_convention": "W[post, pre] = synapse count from pre neuron to post neuron",
+  "method_note": "This folder is aligned to the pushed 93-neuron functional matrix. The team's initial notebook reported 99 session 9_3 neurons before dropping 6 neurons missing from the V1 response matrix. No neurons are duplicated to reach a target threshold."
+}
