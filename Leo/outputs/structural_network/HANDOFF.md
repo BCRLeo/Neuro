@@ -12,14 +12,79 @@ W[post, pre] = synapse count from presynaptic neuron pre to postsynaptic neuron 
 
 Rows are postsynaptic neurons. Columns are presynaptic neurons.
 
+## Weighting Choice
+
+The structural matrices use synapse count, not synapse size.
+
+Example:
+
+- If neuron A makes 3 synapses onto neuron B, the edge weight is `3`.
+- The total cleft/contact size is still kept in `structural_edges.csv` as
+  `synapse_size_sum`, but it is not the primary structural weight.
+
+Reason:
+
+- The project definition states `W_ij = synapse count from neuron j to neuron i`.
+- Synapse size is biologically interesting, but it changes the interpretation
+  from "how many synaptic contacts connect this pair" to "how much total contact
+  area connects this pair".
+- If the group wants a sensitivity analysis, rerun the same comparisons with
+  `synapse_size_sum`, but keep the main analysis count-weighted.
+
 ## Which Output Should Be Used?
 
-There are two cohort-specific subfolders because the project has two competing
-constraints.
+There are now three cohort-specific subfolders. The first one reflects the
+team's later pivot to session 9, scan 3.
+
+### `session_9_3_v1_93_from_functional/`
+
+Use this if the group is now analyzing the pushed functional output in
+`outputs/functional_network/`.
+
+This folder is aligned exactly to:
+
+- `outputs/functional_network/F_correlation_matrix.npy`
+- `outputs/functional_network/functional_cohort.csv`
+
+Important clarification:
+
+- The functional notebook initially reports `99` neurons in session 9, scan 3.
+- The saved functional matrix is actually `93 x 93`.
+- Six neurons were dropped because they were missing from the V1 response matrix.
+- Therefore this structural folder follows the saved `93`-neuron matrix, not the
+  intermediate `99`-neuron printout.
+
+Summary:
+
+- Cohort size: `93` neurons
+- Session: `9_3`
+- Brain area/layer/type: `V1`, `L4`, `4P`
+- Excitatory neurons: `93`
+- Inhibitory neurons: `0`
+- Directed structural edges after autapse removal: `229`
+- Total synapse count after autapse removal: `260`
+
+Threshold and duplication note:
+
+- The original project notes used `200` neurons as a conservative fallback
+  threshold.
+- The team has now decided the `93`-neuron session `9_3` cohort is acceptable.
+- This output therefore does not enforce the `200`-neuron cutoff.
+- No neurons are duplicated to increase `N`: the output has `93` unique
+  `pt_root_id` values and `93` unique functional unit IDs within session `9_3`.
+
+Important limitations:
+
+- There are no inhibitory neurons, so E/I separation is trivial and `W_inh` is
+  empty.
+- The current functional matrix is Pearson-only, so it should be described as
+  exploratory unless partial correlation or another controlled functional metric
+  is added.
 
 ### `session_matched-all/`
 
-Use this as the main Project 7 structure-function cohort.
+This was the earlier main Project 7 structure-function candidate before the
+team pivot.
 
 This folder contains neurons from one functional imaging session, `8_5`.
 That matters because functional correlations are only valid between neurons
