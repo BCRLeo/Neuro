@@ -205,7 +205,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-microns.h5
-*.h5
-outputs/*.npy
-data/1718/raw/*.csv
+data/
+
+.DS_Store
