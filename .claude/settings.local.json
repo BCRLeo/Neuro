@@ -4,7 +4,8 @@
       "Bash(pip show *)",
       "Bash(python -c ' *)",
       "Bash(python c:/Users/leona/AppData/Local/Programs/Python/Python312/python.exe -c ' *)",
-      "Bash(c:/Users/leona/AppData/Local/Programs/Python/Python312/python.exe -c ' *)"
+      "Bash(c:/Users/leona/AppData/Local/Programs/Python/Python312/python.exe -c ' *)",
+      "Bash(python3 -c ' *)"
     ]
   }
 }
