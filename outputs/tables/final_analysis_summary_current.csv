@@ -1,0 +1,7 @@
+analysis,cohort,question,effect,ci_low,ci_high,statistic,p_value,interpretation_short
+H1,906,Are directly connected pairs more functionally correlated?,0.03341120712945433,0.030746288705688785,0.03601845657004082,,,Supported: connected pairs have a modest but robustly higher signal correlation.
+H2,906 connected pairs,Does synapse strength grade functional similarity?,0.06862793862593908,0.050120445697185004,0.0863885358754767,,,Supported but weak: stronger connected pairs are only slightly more correlated.
+H3,906,Are reciprocal pairs more functionally similar than unidirectional pairs?,0.012557948327879292,,,1.3631265245429836,0.09038192361527694,"Partially supported: reciprocal pairs exceed unconnected pairs, but bi > uni is not detected."
+H4,906,distance-matched,0.018626214985768955,0.015023368803268258,0.022272274690575397,,2.5382997480783525e-23,Supported: the connected-pair effect shrinks under distance matching but remains positive.
+H7 / topology,906,Are structural hubs also functional hubs?,0.10954215562122328,,,0.0119994838581443,0.0009579571116966421,Limited support: narrow signed hub coupling is weak and sensitivity-dependent.
+thresholded topology,906,Do structural and functional graphs have similar topology at matched density?,0.008211275089284228,,,0.28725279666490655,0.8050467894563588,Exploratory: topology similarity depends strongly on functional-threshold definition.
