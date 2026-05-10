@@ -5,7 +5,7 @@
       "Bash(python -c ' *)",
       "Bash(python c:/Users/leona/AppData/Local/Programs/Python/Python312/python.exe -c ' *)",
       "Bash(c:/Users/leona/AppData/Local/Programs/Python/Python312/python.exe -c ' *)",
-      "PowerShell(jupyter nbconvert --to notebook --execute --inplace \"c:/Users/shaqi/Desktop/NeuroFinalProject/KevinH1-H3.ipynb\" 2>&1)"
+      "Bash(python3 -c ' *)"
     ]
   }
 }
