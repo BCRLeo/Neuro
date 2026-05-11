@@ -1,5 +1,5 @@
 cohort,functional_metric,structural_metric,controls,strata_preserved,rho,rank_variance_approx,p_stratified_permutation,n_permutations
-all_906,mean_fcorr_signed,total_strength,distance+area,brain_area+layer,0.10954215562122331,0.011999483858144306,0.0324967503249675,10000
-all_906,mean_fcorr_signed,total_strength,distance+area+layer,brain_area+layer,0.06837131117557094,0.004674636191866751,0.0433956604339566,10000
-all_906,mean_fcorr_signed,in_strength,distance+area,brain_area+layer,0.11693022140985808,0.013672676678958433,0.0688931106889311,10000
-all_906,mean_fcorr_signed,out_strength,distance+area,brain_area+layer,0.06646229628458364,0.00441723682741978,0.046495350464953504,10000
+all_906,mean_fcorr_signed,total_strength,distance+area,brain_area+layer,0.10954215562122328,0.0119994838581443,0.0326967303269673,10000
+all_906,mean_fcorr_signed,total_strength,distance+area+layer,brain_area+layer,0.06837131117557094,0.004674636191866751,0.04459554044595541,10000
+all_906,mean_fcorr_signed,in_strength,distance+area,brain_area+layer,0.11693022140985807,0.01367267667895843,0.06309369063093691,10000
+all_906,mean_fcorr_signed,out_strength,distance+area,brain_area+layer,0.06646229628458362,0.004417236827419778,0.046995300469953004,10000
