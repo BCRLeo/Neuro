@@ -1,14 +1,14 @@
 analysis,structural_metric,functional_metric,controls,rho,rank_variance_approx,p_value,n_neurons
-strength beyond degree,total_strength,mean_fcorr_signed,total_degree,0.03270646887827666,0.0010697131064856798,0.3254286891065498,906
-strength beyond degree,total_strength,mean_fcorr_signed,mean_dist_um+brain_area+total_degree,0.04677858259106239,0.0021882357892288457,0.15947072090152986,906
-cell-type strict control,total_strength,mean_fcorr_signed,mean_dist_um+brain_area+cell_type,0.06496680263957491,0.004220685445209478,0.05060010168983822,906
-same-area functional mean,total_strength,mean_fcorr_same_area,raw,-0.12059591217337662,0.014543374032928767,0.0002745595175333084,906
-same-area functional mean,total_strength,mean_fcorr_same_area,mean_dist_same_area+brain_area,0.018605717755803112,0.00034617273320860717,0.5759540822252923,906
-same-area functional mean,total_strength,mean_fcorr_same_area,mean_dist_same_area+brain_area+layer,-0.006129374986840186,3.756923772930213e-05,0.8538250286935232,906
-pair-distance residual diagnostic,mean_fcorr_pairdist_resid,mean_dist_um,raw,0.2176681820970788,0.04737943749744706,3.536745416514502e-11,906
-pair-distance residual diagnostic,total_strength,mean_fcorr_pairdist_resid,raw,-0.05027875689190294,0.0025279533945950774,0.1304704225883214,906
-V1 recomputed functional mean; full structural strength,total_strength,mean_fcorr_subset,raw,0.07393979245933609,0.0054670929089296934,0.04611852446496882,728
-V1 recomputed functional mean; full structural strength,total_strength,mean_fcorr_subset,mean_dist_subset,0.041740062999633475,0.0017422328592133715,0.26068930322088774,728
-V1 recomputed functional mean; full structural strength,total_strength,mean_fcorr_subset,mean_dist_subset+layer,0.02658161792620814,0.0007065824115749099,0.4739262999667917,728
-V1 induced-subgraph strength,subset_total_strength,mean_fcorr_subset,raw,0.08150586047471595,0.006643205291723863,0.027875858718548016,728
-V1 induced-subgraph strength,subset_total_strength,mean_fcorr_subset,mean_dist_subset+layer,0.03543018729519054,0.0012552981717722813,0.33977205829239693,728
+strength beyond degree,total_strength,mean_fcorr_signed,total_degree,0.0327064688782767,0.0010697131064856822,0.32542868910655015,906
+strength beyond degree,total_strength,mean_fcorr_signed,mean_dist_um+brain_area+total_degree,0.0467785825910624,0.002188235789228846,0.15947072090152978,906
+cell-type strict control,total_strength,mean_fcorr_signed,mean_dist_um+brain_area+cell_type,0.06426847507442295,0.004130436888391723,0.053137819854300675,906
+same-area functional mean,total_strength,mean_fcorr_same_area,raw,-0.12059591217337662,0.014543374032928767,0.0002745595175333085,906
+same-area functional mean,total_strength,mean_fcorr_same_area,mean_dist_same_area+brain_area,0.018605717755803088,0.0003461727332086063,0.5759540822252966,906
+same-area functional mean,total_strength,mean_fcorr_same_area,mean_dist_same_area+brain_area+layer,-0.006129374986840177,3.756923772930202e-05,0.8538250286935279,906
+pair-distance residual diagnostic,mean_fcorr_pairdist_resid,mean_dist_um,raw,0.2176681820970788,0.04737943749744706,3.5367454165145084e-11,906
+pair-distance residual diagnostic,total_strength,mean_fcorr_pairdist_resid,raw,-0.05027875689190294,0.0025279533945950774,0.13047042258832128,906
+V1 recomputed functional mean; full structural strength,total_strength,mean_fcorr_subset,raw,0.07393979245933609,0.0054670929089296934,0.04611852446496884,728
+V1 recomputed functional mean; full structural strength,total_strength,mean_fcorr_subset,mean_dist_subset,0.04174006299963348,0.001742232859213372,0.2606893032208904,728
+V1 recomputed functional mean; full structural strength,total_strength,mean_fcorr_subset,mean_dist_subset+layer,0.02658161792620817,0.0007065824115749116,0.473926299966793,728
+V1 induced-subgraph strength,subset_total_strength,mean_fcorr_subset,raw,0.08150586047471595,0.006643205291723863,0.027875858718548027,728
+V1 induced-subgraph strength,subset_total_strength,mean_fcorr_subset,mean_dist_subset+layer,0.03543018729519054,0.0012552981717722813,0.3397720582923967,728
